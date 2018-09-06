@@ -1,0 +1,31 @@
+@mixin text {
+	font-size: 80px;
+	        margin-bottom: 25px;
+	        font-family: Catamaran,Helvetica,Arial,sans-serif;
+    		font-weight: 200;
+    		letter-spacing: 1px;
+}
+
+
+#six {
+	
+	position: relative;
+    padding: 250px 0;
+    
+    background-position: center;
+    background-size: cover;
+	.container {
+		padding: 40px 0;
+		color: #fff;
+
+		h2 {
+			@include text;
+		} 
+
+		.btn-outline {
+    color: #fff;
+    border: 1px solid;
+    border-color: #fff;
+	}
+	}
+}
